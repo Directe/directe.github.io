@@ -1,0 +1,61 @@
+@media only screen and (min-width: 760px) {
+#videobox { width: 25%; }
+#footer { font-size: 16px; }
+}
+
+@media only screen and (max-width: 760px) {
+#videobox { width: 100%; clear: both; }
+#footer { font-size: 10px; }
+}
+@charset "utf-8";
+body { background-color: #000000; color: #FFFFFF; font-family: "Helvetica Light", Helvetica, "Droid Sans", Arial, Arial Unicode MS, sans-serif; }
+h1 { font-size: 34px; font-weight: 200; }
+::-moz-selection {
+background: #00BEFD;
+color: #fff;
+text-shadow: 0px 0px 2px #000;
+}
+::selection { background: #00BEFD; color: #fff; text-shadow: 0px 0px 2px #000; }
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+background-color: #000000;
+}
+::-webkit-scrollbar-thumb {
+background-color: #FFF;
+}
+#sitelogo { margin-top: 90px; }
+#sitelogo img { width: 30%; }
+#thelinks { margin-bottom: 30px; font-size: 24px; }
+
+#content { padding-top: 22px; padding-right: 22px; padding-bottom: 22px; padding-left: 22px; }
+#list img { width: 100%; border: 8px solid #00BEFD; }
+#videobox { font-size: 22px; margin-right: 48px; float: left; margin-bottom: 50px; }
+a { color: #688C98; text-decoration: none; }
+a:hover { color: #759EAC; text-decoration: none; }
+#footer { margin-top: 26px; clear: both; margin-left: auto; margin-right: auto; width: 85%; padding-top: 10px; border-top: 0.2em solid #E4E4E4; }
+#globalfooter { text-align: center; }
+.hugetext { font-size: 550%; color: #FFFFFF; }
+.footerlegal { display: inline-block; margin-left: 12px; }
+.specialfont { font-family: arufont; font-size: 170%; margin-right: 20px; }
+#latestvideos iframe { max-width: 100%; }
+#header { background-color: #1F1F1F; height: 60px; left: 0px; right: 0px; top: 0px; position: absolute; }
+#logo { width: 60px; height: 60px; max-height: 100%; background-color: #000000; margin-left: auto; margin-right: auto; }
+#logo img { width: 100%; }
+#fixnotice { display: none; }
+/* YouTube Section */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
