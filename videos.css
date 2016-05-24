@@ -1,20 +1,21 @@
 @media only screen and (min-width: 760px) {
 #videobox { width: 25%; }
 #footer { font-size: 16px; }
+#sitelogo img { width: 30%; }
 }
 
 @media only screen and (max-width: 760px) {
 #videobox { width: 100%; clear: both; }
 #footer { font-size: 10px; }
+#sitelogo img { width: 80%; }
 }
 @charset "utf-8";
 body { background-color: #805a4c; color: #FFFFFF; font-family: "Helvetica Light", Helvetica, "Droid Sans", Arial, Arial Unicode MS, sans-serif; }
 h1 { font-size: 34px; font-weight: 200; }
 h2 { font-size: 50px; font-weight: 200; }
-iframe { min-width: 100%; min-height: 800px; }
+iframe { min-width: 100%; }
 
 #sitelogo { margin-top: 90px; margin-left: 25px; }
-#sitelogo img { width: 30%; }
 #thelinks { margin-bottom: 30px; font-size: 24px; }
 
 #content { padding-top: 22px; padding-right: 22px; padding-bottom: 22px; padding-left: 22px; }
