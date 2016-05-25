@@ -10,14 +10,15 @@
 #sitelogo img { width: 80%; }
 }
 @charset "utf-8";
-body { background-color: #805a4c; color: #FFFFFF; font-family: "Helvetica Light", Helvetica, "Droid Sans", Arial, Arial Unicode MS, sans-serif; }
+body { background-color: #805a4c; color: #FFFFFF; font-family: "Helvetica Light", Helvetica, "Droid Sans", Arial, Arial Unicode MS, sans-serif; font-size: 18px; }
 h1 { font-size: 34px; font-weight: 200; }
 h2 { font-size: 50px; font-weight: 200; }
+h3 { font-size: 50px; }
 iframe { min-width: 100%; }
 #onlineform iframe { min-width: 100%; min-height: 950px; }
-
 #sitelogo { margin-top: 90px; margin-left: 25px; }
 #thelinks { margin-bottom: 30px; font-size: 24px; }
+#thankyou { margin-bottom: 30px; font-size: 24px; padding: 20px; background-color: #533a31; }
 
 #content { padding-top: 22px; padding-right: 22px; padding-bottom: 22px; padding-left: 22px; }
 #list img { width: 100%; border: 8px solid #00BEFD; }
@@ -40,7 +41,6 @@ a:hover { color: #795548; text-decoration: none; }
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -50,3 +50,11 @@ a:hover { color: #795548; text-decoration: none; }
     width: 100%;
     height: 100%;
 }
+#footnote { font-size: 14px; margin-top: 20px; border-top: 5px solid #FFFFFF; }
+.evensmaller { font-size: 12px; }
+.little { font-size: 12px; font-weight: bold; }
+
+.box { min-width: 50%; float: left; min-height: 450px; }
+.imgdownload { max-width: 20%; }
+
+#boxes { }
